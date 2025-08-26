@@ -2,8 +2,8 @@
 import './App.css'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AnthLayout from './Lyouts/AnthLayout';
-import LoginPage from './Pages/loginPage';
-import RegisterPage from './Pages/registerPage';
+import LoginPage from './Pages/LoginPage';
+import RegisterPage from './Pages/RegisterPage';
 import MainLayout from './Lyouts/MainLayout';
 import FeedPage from './Pages/FeedPage';
 import NotFoundPage from './Pages/NotFoundPage';
