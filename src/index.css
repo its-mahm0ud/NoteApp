@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin './hero.js';
+@source "../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}";
+
+@custom-variant dark (&:is(.dark *));
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+
+@layer base {
+    h1 {
+        @apply text-3xl
+    }
+}
+
+@layer utilities {
+    .container {
+        @apply mx-auto;
+    }
+}
+
+@theme {
+    --color-backGround: #6ee7b7;
+    --color-innerGround: #d1fae5;
+    --color-text: #047857;
+    --color-anotherText: #065f46;
+}
