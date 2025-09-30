@@ -15,7 +15,7 @@ A simple **Notes Application** built with **React, TailwindCSS, and HeroUI**, al
 * **Frontend:** React, TailwindCSS, HeroUI
 * **Forms Handling:** React Hook Form
 * **State Management:** React Hooks (useState, useEffect)
-* **API:** REST API (Node.js / Express based)
+* **API:** REST API
 
 ## 👤 Author
 
